@@ -1,5 +1,3 @@
-import Skill from "./Skill.jsx";
-
 function SkillList() {
   return (
     <div className="skill-list">

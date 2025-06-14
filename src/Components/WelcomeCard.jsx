@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
 import Intro from "./intro";
-import Skill from "./Skill";
 import Image from "../../public/img/passport.jpg";
 
 function WelcomeCard() {
@@ -10,7 +9,7 @@ function WelcomeCard() {
       <img src={Image} alt="" />
 
       <Intro />
-      <Skill />
+      {/* <Skill /> */}
     </div>
   );
 }

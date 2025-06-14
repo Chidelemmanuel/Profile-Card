@@ -1,12 +1,17 @@
 function SkillList() {
   return (
-    <div className="skill-list">
-      <Skill skill="HTML+CSS" color="#123456" />
-      <Skill skill="JAVASCRIPT" color="#123456" />
-      <Skill skill="VANILLA JS" color="#123456" />
-      <Skill skill="TYPESCRIPT" color="#123456" />
-      <Skill skill="REACTJS" color="#123456" />
-      <Skill skill="GIT & GITHUB" color="#123456" />
+    <div className="skill">
+      <section className="first">
+        <span className="one">HTML+CSS</span>
+        <span className="two">JAVASCRIPT</span>
+        <span className="three">VANILLA JS</span>
+      </section>
+
+      <section className="second">
+        <span className="four">TYPESCRIPT</span>
+        <span className="five">REACTJS</span>
+        <span className="six">GIT & GITHUB</span>
+      </section>
     </div>
   );
 }

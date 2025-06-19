@@ -25,7 +25,7 @@
 .intro {
   padding: 20px;
   color: #222;
-  background-color: #fff !important;
+  /* background-color: gray !important; */
 }
 
 .intro h1 {

@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  background-color: #fff;
+}
+
 .card {
   display: flex;
   justify-content: center;
@@ -15,6 +19,7 @@
   border-radius: 20px;
   padding: 100px;
   background-color: rgb(205, 197, 197);
+  box-shadow: 1px 1px 10px gray, -1px -1px 10px gray;
 }
 
 .card > img {

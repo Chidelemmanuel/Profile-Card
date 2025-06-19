@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+.color {
+  color: blue;
+  font-size: 20px;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

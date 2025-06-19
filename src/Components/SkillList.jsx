@@ -1,16 +1,12 @@
-function SkillList() {
+function SkillList(props) {
   return (
     <div className="skill">
       <section className="first">
-        <span className="one">HTML+CSS</span>
-        <span className="two">JAVASCRIPT</span>
-        <span className="three">VANILLA JS</span>
+        <span className="one">{props.skillone}</span>
       </section>
 
       <section className="second">
-        <span className="four">TYPESCRIPT</span>
-        <span className="five">REACTJS</span>
-        <span className="six">GIT & GITHUB</span>
+        <span className="four">{props.skilltwo}</span>
       </section>
     </div>
   );

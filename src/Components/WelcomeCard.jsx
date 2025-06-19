@@ -10,7 +10,9 @@ function WelcomeCard() {
       <img src={Image} alt="" />
 
       <Intro />
-      <SkillList />
+      <SkillList skillone={"HTML+CSS"} skilltwo={"TYPESCRIPT"} />
+      <SkillList skillone={"JAVASCRIPT"} skilltwo={"REACTJS"} />
+      <SkillList skillone={"VANILLA JS"} skilltwo={"GIT & GITHUB"} />
     </div>
   );
 }

@@ -39,6 +39,7 @@ body {
 
 .intro p {
   padding: 10px 0;
+  font-size: 18px;
 }
 
 .skill {
@@ -112,5 +113,14 @@ body {
 
   .intro h1 {
     font-size: 21px;
+  }
+
+  .intro p {
+    font-size: 15px;
+  }
+
+  .first > span,
+  .second > span {
+    font-size: 12px;
   }
 }

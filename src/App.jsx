@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <h1>My Profile Card</h1>
-      <WelcomeCard />
+      <WelcomeCard Intro="ooooo" />
     </div>
   );
 }
